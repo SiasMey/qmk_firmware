@@ -13,8 +13,11 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2"],
-        "rows": ["D1", "D1", "D1", "D1"]
+        "cols": ["GP2", "GP3", "GP4", "GP5", "GP6"],
+        "rows": ["GP26", "GP27", "GP28", "GP29"]
+    },
+    "split": {
+        "soft_serial_pin": "GP1"
     },
     "processor": "RP2040",
     "url": "",
@@ -23,6 +26,7 @@
         "pid": "0x0000",
         "vid": "0xFEED"
     },
+    "community_layouts": ["split_3x5_2"],
     "layouts": {
         "LAYOUT_split_3x5_2": {
             "layout": [
