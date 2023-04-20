@@ -1,4 +1,9 @@
 // name     result    chord keys
+
+DEFAULT_REF_LAYER(5)
+COMBO_REF_LAYER(0,0)
+COMBO_REF_LAYER(1,0)
+
 // middle left
 COMB(WF, KC_LCBR, KC_W, KC_F)                   // {
 COMB(RS, KC_LPRN, LGUI_T(KC_R), LALT_T(KC_S))   // (
